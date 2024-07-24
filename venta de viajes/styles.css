@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('./images/viaje.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li a.active {
+    background-color: #37B7C3;
+    color: white;
+    border-radius: 10px;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+    margin-top: 20px;
+    color: #37B7C3;
+    text-shadow: 1px 1px 2px #000;
+}
+
+h2 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 28px;
+    color: #FF8225;
+    text-shadow: 1px 1px 2px #000;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+#precio{
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+    margin: 20px;
+    text-shadow: 1px 1px 2px #000;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#parrafo {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+    color: #FFF;
+    text-shadow: 1px 1px 2px #000;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contenedor {
+    margin-left: 220px; /* Ajustado para que coincida con el ancho del menú lateral */
+    padding: 16px;
+    height: calc(100% - 32px);
+    overflow-y: auto;
+}
+
